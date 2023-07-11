@@ -1,0 +1,21 @@
+.container{
+  background-color: gray;
+  width: 400px;
+  display: flex;
+}
+
+
+.box{
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  color: #fff;
+  border: 1px yellow solid;
+}
+.box.blue{
+  background-color: blue;
+}
+.box.red{
+  background-color: red;
+}
