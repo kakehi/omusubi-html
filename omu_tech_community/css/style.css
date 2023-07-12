@@ -75,6 +75,8 @@ header {
   display: block;
   margin: 30px 0;
   background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
 .card-title {
@@ -99,20 +101,21 @@ header {
 
 .user-items {
   margin-top: 32px;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  gap: 20px;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .user-items .item {
-  margin-bottom: 24px;
-  margin-right: 48px;
   text-align: center;
 }
 
 .user-items .item img {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
 }
 
 .user-items .item .username {
@@ -120,6 +123,20 @@ header {
   margin: 10px auto;
 }
 
+.user-items .item .button {
+  background-color: #088F8F;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 120px;
+  border: none;
+}
+
+.user-items .item .button:hover{
+  background-color: #066F8F;
+}
 
 
 /* Footer */
